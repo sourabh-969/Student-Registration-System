@@ -30,6 +30,8 @@ This is a web-based student registration system built using HTML, CSS, and JavaS
 * **Dynamic Scrolling:** Automatically adds a vertical scrollbar to the table when necessary.
 *  Screenshot :
 *  ![scroll](https://github.com/user-attachments/assets/0da00098-475e-4247-aaa8-0a025c7c259e)
+
+
 **How to Use:**
 
 1. **Add Student:**
