@@ -79,7 +79,7 @@ This is a web-based student registration system built using HTML, CSS, and JavaS
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/student-registration-system
+   git clone https://github.com/sourabh-969/Student-Registration-System.git
    ```
 2. **Open the `index.html` File:**
    - Open the `index.html` file in a web browser.
