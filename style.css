@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(45deg, #091832, #24637a);
+  }
+  body h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.6rem;
+    font-family: Playpen Sans;
+    margin: 0;
+    margin-top: .5rem;
+  }
+
+  body h2 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: doto;
+  }
+
+  body h3 {
+    margin-top: 0;
+    color: white;
+    font-family: cursive;
+    margin-left: 3rem;
+  }
+
+  body pre {
+    text-align: left;
+    color: rgb(9, 206, 255);
+    font-size: 1rem;
+    font-family: monospace;
+  }
+  #txtyellow {
+    text-align: left;
+    color: rgb(247, 243, 1);
+    font-size: 1rem;
+    font-family: monospace;
+    border: none;
+   }
+  #symbolgreen {
+    font-family: Arial Narrow Bold;
+    color: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 4px;
+  }
+
+  #highlight {
+    color: black;
+    font-size: 1.2rem;
+    background-color: pink;
+  }
+
+  .container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .form-container,
+  .table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-container {
+    flex: 1;
+  }
+
+  .form-container h2 {
+    color: black;
+    font-family: monospace;
+  }
+
+  .table-container {
+    flex: 2;
+    overflow-x: auto;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  input {
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  button {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table-container h2 {
+    color: black;
+    font-family: monospace;
+
+  }
+
+  th,
+  td {
+    border: #ddd;
+    padding: 8px;
+    text-align: left;
+    font-family: monospace;
+    font-size: 1rem;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+  }
+
+  .edit-mode {
+    background-color: #f8000050;
+  }
+
+  .edited::after {
+    content: 'E';
+    color: yellowgreen;
+    font-weight: bold;
+    font-family: Arial Narrow Bold;
+    font-size: 0.8rem;
+    border: 2px solid yellowgreen;
+    border-radius: 4px;
+    padding: 1px 3px;
+    margin-left: 5px;
+  }
