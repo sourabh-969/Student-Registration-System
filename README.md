@@ -1,10 +1,11 @@
-**Student Registration System**
+#**[Student Registration System]([url](https://sourabh-969.github.io/Student-Registration-System/))**
+[live preview] : (https://sourabh-969.github.io/Student-Registration-System/)
 
-**Overview**
+##**Overview**
 
 This is a web-based student registration system built using HTML, CSS, and JavaScript. It allows users to add, edit, and delete student records. The data is stored locally in the browser's local storage, persisting even after page refreshes.
 
-**Key Features:**
+##**Key Features:**
 
  **User-Friendly Interface:** A clear and intuitive interface for easy interaction.
 
@@ -49,7 +50,7 @@ This is a web-based student registration system built using HTML, CSS, and JavaS
    ![scroll](https://github.com/user-attachments/assets/0da00098-475e-4247-aaa8-0a025c7c259e)
 
 
-**How to Use:**
+##**How to Use:**
 
 1. **Add Student:**
    - Fill in the required fields in the registration form.
